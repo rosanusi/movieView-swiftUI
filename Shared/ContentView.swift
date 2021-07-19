@@ -8,11 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var show = false
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        MovieView()
     }
+
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
